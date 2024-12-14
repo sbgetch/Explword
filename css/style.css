@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #F4D06F;
+}
+
+#main_logo {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    background-color: #392F5A;
+    color: white;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main {
+    padding-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+#gameContainer {
+    flex-flow: column;
+    gap: 1rem;
+    width: 90vw;
+    align-items: center;
+    text-align: center;
+    background-color: #f4e2b0;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.letter-box {
+    width: 35px;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    text-align: center;
+    resize: none;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #9DD9D2;
+    font-size: larger;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+#wordContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    padding: .5em;
+    border-bottom: solid #392F5A;
+}
+
+.hide {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.correct {
+    background-color: #b7f6b3;
+}
+
+#newGameBtn {
+    background-color: #7bcb94;
+}
+
+#exitBtn {
+    background-color: #e37777;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #5c5c5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+    gap: .5em;
+    color: white;
+}
+
+footer p {
+    margin-top: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.item-footer {
+    background-color: #dedbdb;
+    padding: .2rem;
+}
+
+@media screen and (min-width: 769px) {
+    #gameContainer {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #gameContainer {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    #gameContainer {
+        width: 60vw;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explword</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div id="nav">
+            <a href="#header"><img id="main_logo" src="./assets/WC_Logo.png" alt="logo"></a>
+            <h3>Explword</h3>
+        </div>
+    </nav>
+    <main>
+        <h1>Word Guessing Game</h1>
+        <div id="startContainer">
+            <button id="startBtn">START</button>
+        </div>
+        <div id="gameContainer" class="hide">
+            <p id="remainingAttempts"></p>
+            <div id="wordContainer"></div>
+            <p id="hint"></p>
+            <button id="submitBtn">Submit Guess</button>
+            <p id="result"></p>
+
+            <div id="navigateContainer" class="hide">
+                <button id="newGameBtn">New Game</button>
+                <button id="exitBtn">Exit</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>© 2024 Steven Gatchalian</p>
+        </div>
+        <div class="card-footer">
+            <div class="item-footer">
+                <a href="https://www.linkedin.com/in/steven-gatchalian-7b2798175/" target="_blank"><img src="./images/LinkedIn_logo.svg" width="20" alt="LinkedIn_Logo"></a>
+            </div>
+            <div class="item-footer">
+                <a href="https://gitlab.com/sbgetch" target="_blank"><img src="./images/GitLab_Logo.png" width="20" alt="GitHub_Logo"></a>
+            </div>
+            <div class="item-footer">
+                <a href="https://github.com/sbgetch" target="_blank"><img src="./images/GitHub_Logo.png" width="20" alt="GitHub_Logo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="./script/index.js"></script>
+</body>
+</html>
